@@ -1,0 +1,16 @@
+{
+  "name": "sharedsub",
+  "version": "1.0.0",
+  "description": "Shared Sub - an account selling SAAS",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch",
+    "build": "tailwindcss -i ./input.css -o ./css/style.css",
+    "cpybuild": "mkdir -p build && cp ./*.html build/ && cp -r ./images build/"
+  },
+  "author": "Alifarhad",
+  "license": "copyright",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}

@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .btn-hover {
+        @apply hover:bg-black hover:bg-opacity-10;
+    }
+
+    .btn-active {
+        @apply bg-black bg-opacity-10;
+    }
+
+    /* .card {
+        @apply  bg-white flex-1 min-w-[25rem]   max-w-sm  rounded-3xl shadow-2xl;
+    } */
+
+    .card {
+        @apply  bg-white max-w-[20rem] rounded-3xl shadow-2xl;
+    }
+
+
+   .card-body {
+    @apply rounded-b-3xl relative bg-bluish flex flex-col items-center justify-center text-center space-y-4;
+   }
+
+   .btn-purchase {
+    @apply flex items-center justify-center bg-bluish text-white rounded-xl text-sm py-2 uppercase font-semibold tracking-widest mt-5 hover:opacity-90 cursor-pointer
+   }
+
+   .btn-purchase > * {
+    flex-grow: 1;
+   }
+
+   .links {
+    @apply flex flex-col space-y-2 text-sm text-slate-400;
+   }
+
+   
+}
+
+
+
+.swiper {
+    max-width: 80%;
+    
+  }
+
+
+  @media (min-width: 768) {
+ 
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+    
+  }
+
