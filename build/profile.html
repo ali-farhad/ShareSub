@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"er
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <title>Shared Sub - User Profile</title>
+  </head>
+  <body class="bg-slate-100">
+
+    <nav class="">
+      <div class="container relative max-w-full py-4 px-10 bg-bluish flex justify-between items-center mx-auto">
+        <!-- LOGO SECTION -->
+        <div class="flex-none max-w-[10rem]">
+          <a href="/"><img src="./images/logo.jpg" alt="site logo"></a>
+
+        </div>
+        <!-- LINKS SECTION -->
+      
+        <ul class="flex items-center space-x-8 text-white uppercase text-sm leading-3">
+          <li class="hidden md:block px-5 py-3 rounded-full btn-active btn-hover"><a class="" href="#">Home Page</a></li>
+          <li class="hidden md:block px-5 py-3 rounded-full btn-hover"><a href="#">Top-Up Wallet</a></li>
+          <li class="hidden md:block px-5 py-3 rounded-full btn-hover"><a href="#">Support</a></li>
+          <li class="px-5 py-3 rounded-full btn-hover"><a href="#">Subscription</a></li>
+          <li class="hidden md:block px-3 py-3 rounded-full btn-hover relative">
+            <div class="w-10 group">
+            <img class="user rounded-full border border-transparent" src="./images/avatars/user.png" alt="user">
+              <div class="z-10 submenu hidden absolute right-0 submenu lowercase group-hover:flex flex-col space-y-5 bg-white text-black border rounded-sm py-2">
+                <div class="submenu-header space-y-2 px-5">
+                  <p class="font-bold mt-5">user@gmail.com</p>
+                </div>
+                <hr>
+                <div class="submenu-body px-5 space-y-5">
+
+                  <div class="row-item flex items-center gap-3 capitalize font-semibold">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                      <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM3.751 20.105a8.25 8.25 0 0116.498 0 .75.75 0 01-.437.695A18.683 18.683 0 0112 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 01-.437-.695z" clip-rule="evenodd" />
+                    </svg>
+                    
+                    <a href="profile.html">Profile</a>
+                    
+                  </div>
+
+                  <div class="row-item flex items-center gap-3 capitalize font-semibold">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                      <path d="M2.25 2.25a.75.75 0 000 1.5h1.386c.17 0 .318.114.362.278l2.558 9.592a3.752 3.752 0 00-2.806 3.63c0 .414.336.75.75.75h15.75a.75.75 0 000-1.5H5.378A2.25 2.25 0 017.5 15h11.218a.75.75 0 00.674-.421 60.358 60.358 0 002.96-7.228.75.75 0 00-.525-.965A60.864 60.864 0 005.68 4.509l-.232-.867A1.875 1.875 0 003.636 2.25H2.25zM3.75 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM16.5 20.25a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0z" />
+                    </svg>
+                    <a href="subs.html">Subscription</a>
+
+                    
+                  </div>
+
+                  <div class="row-item flex items-center gap-3 capitalize font-semibold">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                      <path fill-rule="evenodd" d="M5.625 1.5c-1.036 0-1.875.84-1.875 1.875v17.25c0 1.035.84 1.875 1.875 1.875h12.75c1.035 0 1.875-.84 1.875-1.875V12.75A3.75 3.75 0 0016.5 9h-1.875a1.875 1.875 0 01-1.875-1.875V5.25A3.75 3.75 0 009 1.5H5.625zM7.5 15a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5A.75.75 0 017.5 15zm.75 2.25a.75.75 0 000 1.5H12a.75.75 0 000-1.5H8.25z" clip-rule="evenodd" />
+                      <path d="M12.971 1.816A5.23 5.23 0 0114.25 5.25v1.875c0 .207.168.375.375.375H16.5a5.23 5.23 0 013.434 1.279 9.768 9.768 0 00-6.963-6.963z" />
+                    </svg>
+                    
+                    <a class="whitespace-nowrap" href="history.html">Order History</a>
+                    
+                  </div>
+
+                  
+
+                </div>
+                <hr>
+                <div class="row-item flex items-center gap-3 capitalize font-semibold px-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                    <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z" clip-rule="evenodd" />
+                  </svg>
+                  
+                  <a href="#">Logout</a>
+                  
+                </div>
+              </div>
+          </div>
+          </li>
+      </div>
+      </div>
+    </nav>
+
+   
+    
+    <!-- main section -->
+    <section id="main" class="bg-slate-100 relative max-w-full mx-auto">
+      <svg class="relative rotate-180 -top-[1px]" data-v-dd3a5eee="" fill="#006cff" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1440 48" xml:space="preserve" class="top-arrondis"><path data-v-dd3a5eee="" d="M1440,48H0V0c0,0,205,47,720,47s720-46.9,720-46.9V48z"></path></svg>
+
+     <div class="user-card-container mx-auto max-w-xl shadow-xl my-10">  
+      <div class="user-card bg-white text-black p-8 flex flex-col items-center gap-4">
+        <div class="user-card-header">
+          <div class="w-20">
+            <img class="border rounded-full" src="/images/avatars/user.png" alt="user">
+          </div>
+        </div>
+        <div class="user-card-body w-full space-y-5">
+            <div class="row-item flex gap-4 justify-center items-center">
+              <p>Nickname:</p>
+              <input class="border border-transparent rounded-lg bg-gray-300 px-3 py-2 flex-1" type="text" value="user">
+            </div>
+
+            <div class="row-item flex gap-4 justify-center items-center">
+              <p class="min-w-[4.5rem]">Email:</p>
+              <input class="border border-transparent rounded-lg bg-gray-300 px-3 py-2 flex-1" type="text" value="user@email.com">
+            </div>
+
+            <div class="row-item flex justify-center items-center">
+              <button class="btn-purchase w-20">Save</button>
+            </div>
+        </div>
+      </div>  
+     </div>
+    </section>
+
+    <div class="container mx-auto max-w-full bg-slate-100">
+        <div class="curves relative">
+        <svg data-v-d7f3d016="" fill="#192b37" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1440 48" xml:space="preserve" class="arrondis-theme"><path data-v-d7f3d016="" d="M1440,48H0V0c0,0,205,47,720,47s720-46.9,720-46.9V48z"></path></svg>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <section id="footer">
+      <div class="container mx-auto max-w-full bg-footerDarkish text-slate-300">
+
+        <!-- ICONS -->
+        <div class="icons flex justify-center space-x-1 md:space-x-4 -translate-y-8 ">
+          <img class="" src="./images/logos/facebook-blue.svg" alt="facebook-blue">
+          <img class="" src="./images/logos/telegram-blue.svg" alt="telegram-blue">
+         
+          </div>
+
+
+        <div class="mx-auto footer-parent grid gap-10 md:grid-cols-2 py-12 justify-items-center">
+          
+          <div class="footer-col ">
+
+            <img width="200" src="./images/logo_blue.png" alt="site logo">
+           
+            </div>
+
+            <div class="footer-col">
+              <p class="pb-3" class="uppercase font-bold text-md">About</p>
+            <div class="links">
+              <a href="#">About Us</a>
+              <a href="#">Contact Us</a>
+              <a href="#">Help Center</a>
+            </div>
+              </div>
+
+
+        </div>
+      </div>
+    </section>
+
+     <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+     <!-- Initialize Swiper -->
+     <script>
+       var swiper = new Swiper(".mySwiper", {
+         slidesPerView: 3,
+         spaceBetween: 30,
+         slidesPerGroup: 3,
+         loop: true,
+         loopFillGroupWithBlank: true,
+         pagination: {
+           el: ".swiper-pagination",
+           clickable: true,
+         },
+         navigation: {
+           nextEl: ".swiper-button-next",
+           prevEl: ".swiper-button-prev",
+         },
+         breakpoints: {
+    300: {
+      slidesPerView: 1
+    },
+    700: {
+      slidesPerView: 2.5
+    },
+    800: {
+      slidesPerView: 3.5
+    }
+  }
+       });
+
+      
+ 
+     </script>
+  </body>
+</html>
