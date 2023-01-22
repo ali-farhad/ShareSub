@@ -3,6 +3,16 @@
 @tailwind utilities;
 
 
+@font-face {
+    font-family: "gilroy";
+    src: url("../build/fonts/gilroy.ttf");
+  };
+
+  @font-face {
+    font-family: "gilroy-thin";
+    src: url("../build/fonts/gilroy-thin.ttf");
+  };
+
 @layer components {
     .btn-hover {
         @apply hover:bg-black hover:bg-opacity-10;
@@ -37,6 +47,13 @@
     @apply flex flex-col space-y-2 text-sm text-slate-400;
    }
 
+   .login-card-btn {
+    @apply border-2 border-gray-200 p-3 rounded-lg hover:border-black hover:scale-110 transition-all flex justify-center min-w-[3rem]
+   }
+
+   .tag-active {
+    @apply cursor-pointer border-b-2 border-blue-600  transition-all
+   }
    
 }
 

@@ -4,6 +4,7 @@ module.exports = {
     
     fontFamily: {
       'sans': ['Roboto', 'sans-serif'],
+      
     },
     
     extend: {
@@ -14,6 +15,13 @@ module.exports = {
         'creamish': 'rgb(240, 235, 235)',
         'whitish': '#f5f5f5'
       },
+      fontFamily : {
+        'gilroy': ['gilroy'],
+        'gilroy-thin': ['gilroy-thin'],
+      },
+      zIndex: {
+        '999': '999',
+      }
     },
   },
   plugins: [],
